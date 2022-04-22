@@ -29,3 +29,9 @@ print(2%3) #modulo for remainder
 print(2//3) #interger division
 print(2**3) #exponent
 print(round(5/3,4))  #round of till 4 integers
+
+age=20
+age=24
+print(age)
+name="arnab saha"
+print(name)
