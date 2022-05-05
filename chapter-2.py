@@ -33,3 +33,4 @@
 
 # a,b,c=input("type any three numbers (comma separated): ").split(",")
 # print(f"avarage of these 3 numbers is : {(int(a)+int(b)+int(c))/3}")
+
