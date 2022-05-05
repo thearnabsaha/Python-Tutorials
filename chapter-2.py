@@ -52,3 +52,10 @@ print("arnabsaha"[::-1]) # step=-1, reverse order
 
 # name=input("type your full name : ")
 # print(f"your name in reverse is : {name[::-1]}")
+
+name="aRnaB saHa"
+print(len(name)) #length function counts spaces also
+print(name.lower()) #make it in lowercase
+print(name.upper()) #make it in uppercase
+print(name.title()) #make it as like title
+print(name.count("a")) #counts how much times that letter is in that string
