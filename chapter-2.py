@@ -66,4 +66,4 @@ print(name.strip()) #remove left right both spaces
 
 # name,char=input("type your name and a letter (comma separated): ").split(",")
 # print(len(name.strip()))
-# print(name.lower().strip().count(char))
+# print(name.lower().strip().count(char.strip()))
