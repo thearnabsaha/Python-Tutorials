@@ -47,3 +47,8 @@ print(lan[2:5]) #if we pass both argument it start from starting argument and to
 # [start argument : stop argument-1 : step]
 print("arnabsaha"[2:9:1]) # step=1, no changes
 print("arnabsaha"[2:9:2]) # step=2, 1 step later
+print("arnabsaha"[2:9:-1]) # step=-1, reverse order
+print("arnabsaha"[::-1]) # step=-1, reverse order 
+
+# name=input("type your full name : ")
+# print(f"your name in reverse is : {name[::-1]}")
