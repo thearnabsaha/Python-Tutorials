@@ -1,15 +1,15 @@
-# # first_name = "arnab"
-# # last_name="saha"
-# # full_name= first_name+""+last_name
-# # print(full_name)      #No Error
-# # # print(full_name+3)  // error  //becuse types are different here
-# # print(full_name+"3")      #No Error      
-# # print(full_name+str(3))      #No Error   //make 3 a str
-# # print(full_name*3)      #No Error       //multiplies name for 3 times
+first_name = "arnab"
+last_name="saha"
+full_name= first_name+""+last_name
+print(full_name)      #No Error
+# print(full_name+3)  // error  //becuse types are different here
+print(full_name+"3")      #No Error      
+print(full_name+str(3))      #No Error   //make 3 a str
+print(full_name*3)      #No Error       //multiplies name for 3 times
 
 
-# # name=input("your name is : ")
-# # print("your name is : " + name)   #we get inputs always in strings
+# name=input("your name is : ")
+# print("your name is : " + name)   #we get inputs always in strings
 
 # # number_1 = input("type your first number : ")
 # # number_2 = input("type your second number : ")
@@ -37,3 +37,13 @@
 lan = "python"
 print(lan[0]) #we start with 0 it we go left to right
 print(lan[-1]) #we start with -1 it we go right to left
+
+# [start argument : stop argument-1]
+print(lan[:])  #if we pass no argument then it will show whole string
+print(lan[1:]) #if we pass only starting argument it start from the staring argument and go to end of the string
+print(lan[:-3]) #if we pass only ending argument it start from beginning and end to before the ending argument.
+print(lan[2:5]) #if we pass both argument it start from starting argument and to before the ending argument.
+
+# [start argument : stop argument-1 : step]
+print("arnabsaha"[2:9:1]) # step=1, no changes
+print("arnabsaha"[2:9:2]) # step=2, 1 step later
