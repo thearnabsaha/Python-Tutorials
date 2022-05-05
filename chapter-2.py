@@ -60,6 +60,6 @@ print(name.upper()) #make it in uppercase
 print(name.title()) #make it as like title
 print(name.count("a")) #counts how much times that letter is in that string
 
-name,char=input("type your name and a letter (comma separated): ").split(",")
-print(len(name))
-print(name.lower().count(char))
+# name,char=input("type your name and a letter (comma separated): ").split(",")
+# print(len(name))
+# print(name.lower().count(char))
