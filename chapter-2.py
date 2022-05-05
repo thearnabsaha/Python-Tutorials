@@ -71,5 +71,12 @@ print(name.strip()) #remove left right both spaces
 string="she is so beautiful, she is a good dancer too"
 print(string.replace(" ","_"))
 print(string.replace("is","was"))
+print(string.replace("is","was",1)) # 1 signifies when it will replace only one is
 
-print(string.find("is"))
+print(string.find("is")) #it will give index of first is
+print(string.find("is",8)) #it will give index of first is after index 8
+print(string.find("is",string.find("is")+1)) #it will give index of second is
+
+name="arnab"
+print(name.center(7,":"))
+print(name.center(len(name)+8,"*"))
