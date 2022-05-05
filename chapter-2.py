@@ -21,3 +21,9 @@ name,age="arnab",20
 print("hey, "+name+" your age is : "+str(age)+" right")
 x=y=z=1
 print(x+y+z)
+
+name,age=input("enter your name and age (space separated) : ").split()
+print("hey, "+name+" your age is : "+str(age)+" right")
+
+name,age=input("enter your name and age (comma separated) : ").split(",")
+print("hey, "+name+" your age is : "+str(age)+" right")
