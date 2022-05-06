@@ -79,3 +79,31 @@
 #         print(f"{name[i]} : {name.count(name[i])}")
 #         temp+=name[i]
 #     i+=1
+# while True:
+#     print("chutiya")
+# for i in range(10):
+#     print(f"arnab is best {i}")
+# for i in range(6,11):
+#     print(f"arnab is best {i}")
+# for i in range(1,11):
+#     if i==5:
+#         break
+#     print(i)
+# for i in range(1,11):
+#     if i==5:
+#         continue
+#     print(i)
+import random
+winnigNumber= random.randint(1,100)
+willWin=True
+i=1
+while willWin:
+    yourNumber=int(input("choose a number between 1-100: "))
+    if winnigNumber==yourNumber:
+        print(f"you win!!! you guessed it in {i} times")
+        willWin=False
+    elif winnigNumber<yourNumber:
+        print("too high!!! guess again")
+    elif winnigNumber>yourNumber:
+        print("too low!! guess again")
+    i+=1
