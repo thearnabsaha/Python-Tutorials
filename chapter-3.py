@@ -36,3 +36,13 @@
 #     print("so, this is your first vote")
 # else:
 #     print("yes sir you can vote!!")
+# name="arnab saha"
+# if "a" in name:
+#     print("yes present here!!!")
+# else:
+#     print("no! not present.")
+name=input("type your name: ")
+if name:
+    print(f"you name is {name}")
+else:
+    print("you didn't type anything!")
