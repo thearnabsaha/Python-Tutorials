@@ -64,3 +64,10 @@
 #     total+=i
 #     i+=1
 # print(total)
+# number=(input("type some more than 1 letter number: "))
+# i=0
+# total=0
+# while i<len(number):
+#     total+=int(number[i])
+#     i+=1
+# print(total)
