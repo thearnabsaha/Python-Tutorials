@@ -41,8 +41,8 @@
 #     print("yes present here!!!")
 # else:
 #     print("no! not present.")
-name=input("type your name: ")
-if name:
-    print(f"you name is {name}")
-else:
-    print("you didn't type anything!")
+# name=input("type your name: ")
+# if name:
+#     print(f"you name is {name}")
+# else:
+#     print("you didn't type anything!")
