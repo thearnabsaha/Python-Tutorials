@@ -21,3 +21,18 @@
 #     print("good to go!!")
 # else:
 #     print("sorry no entry!!")
+
+# name,age= input("type your name and age (comma separated): ").split(",")
+# if name.strip().lower()[0]=="a" and int(age) >10:
+#     print("you can watch coco!!")
+# else:
+#     print("sorry you can't watch coco!!")
+# age=int(input("type your age: "))
+# if age<=0:
+#     print("your age is invalid")
+# elif age<18:
+#     print("your age is low!! so, you can't vote!!")
+# elif age==18:
+#     print("so, this is your first vote")
+# else:
+#     print("yes sir you can vote!!")
