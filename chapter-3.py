@@ -50,3 +50,17 @@
 # while i<=10:
 #     print(f"hello world {i}")
 #     i=i+1
+# print("i'm arnab")
+# i=0
+# total=0
+# while i<=10:
+#     total+=i
+#     i+=1
+# print(total)
+# i=0
+# total=0
+# tillSum=int(input("type any number: "))
+# while i<=tillSum:
+#     total+=i
+#     i+=1
+# print(total)
