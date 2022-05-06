@@ -46,3 +46,7 @@
 #     print(f"you name is {name}")
 # else:
 #     print("you didn't type anything!")
+# i=1
+# while i<=10:
+#     print(f"hello world {i}")
+#     i=i+1
