@@ -1,3 +1,6 @@
 def add(a,b):
     return a+b
-print(add(4,5))
+
+a=int(input("type a number: "))
+b=int(input("type a number again: "))
+print(add(a,b))
