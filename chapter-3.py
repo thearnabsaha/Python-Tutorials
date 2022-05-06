@@ -93,17 +93,29 @@
 #     if i==5:
 #         continue
 #     print(i)
-import random
-winnigNumber= random.randint(1,100)
-willWin=True
-i=1
-while willWin:
-    yourNumber=int(input("choose a number between 1-100: "))
-    if winnigNumber==yourNumber:
-        print(f"you win!!! you guessed it in {i} times")
-        willWin=False
-    elif winnigNumber<yourNumber:
-        print("too high!!! guess again")
-    elif winnigNumber>yourNumber:
-        print("too low!! guess again")
-    i+=1
+# import random
+# winnigNumber= random.randint(1,100)
+# willWin=True
+# i=1
+# while willWin:
+#     yourNumber=int(input("choose a number between 1-100: "))
+#     if winnigNumber==yourNumber:
+#         print(f"you win!!! you guessed it in {i} times")
+#         willWin=False
+#     elif winnigNumber<yourNumber:
+#         print("too high!!! guess again")
+#     elif winnigNumber>yourNumber:
+#         print("too low!! guess again")
+#     i+=1
+# for i in range(0,11,2):
+#     print(i)
+# for i in range(10,0,-1):
+#     print(i)
+# for i in "arnab saha":
+#     print(i)
+
+# num=input("type a number: ")
+# total=0
+# for i in num:
+#     total+=int(i)
+# print(total)
