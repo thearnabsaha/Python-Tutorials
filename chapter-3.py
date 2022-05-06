@@ -71,3 +71,11 @@
 #     total+=int(number[i])
 #     i+=1
 # print(total)
+# name=input("type your name: ")
+# i=0
+# temp=""
+# while i<int(len(name)):
+#     if name[i] not in temp:
+#         print(f"{name[i]} : {name.count(name[i])}")
+#         temp+=name[i]
+#     i+=1
