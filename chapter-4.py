@@ -36,3 +36,10 @@
 # num2=int(input("type a number: "))
 # num3=int(input("type a number: "))
 # print(isBigger(num1,num2,num3))
+
+def ispalindrome(a):
+    if a[::-1]==a:
+        return "yes it is a palindrome"
+    return "no it's not a palindrome"
+string=input("type a palindrome: ")
+print(ispalindrome(string))
