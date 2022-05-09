@@ -56,3 +56,9 @@ name2=["arnab","ambi","suborno","samriddhi","arijit"]
 
 print(name1==name2) #True #checks the value
 print(name1 is name2) #False #checks the memory allocation
+
+name="arnab ambi arijit".split(" ") #.split() method breaks strings into list
+print(name)
+name=["arnab","20","arijit"]
+
+print(",".join(name)) #.join() method add lists to a string
