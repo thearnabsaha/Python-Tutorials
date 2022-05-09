@@ -1,6 +1,3 @@
-from os import pread
-
-
 user1={'name':"arnab","age":20}
 print(user1)
 user2=dict(name="suborno",age=20)
