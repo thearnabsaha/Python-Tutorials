@@ -81,3 +81,16 @@ for i in matrix:
     for j in i:
         print(j)
 print(type(matrix)) #what kind of data type is this
+
+numbers= list(range(1,11)) #by this we make a list with range
+print(numbers)
+
+print(numbers.index(1)) #array.index(the item we are finding,from this range, to that range)
+
+# we can pass list in a function also 
+def negativeList(l):
+    negative=[]
+    for k in l:
+        negative.append(-k)
+    return negative
+print(negativeList(list(range(1,11))))
