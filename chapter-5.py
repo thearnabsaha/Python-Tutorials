@@ -62,3 +62,14 @@ print(name)
 name=["arnab","20","arijit"]
 
 print(",".join(name)) #.join() method add lists to a string
+
+
+name=["arnab","ambi","suborno","samriddhi","arijit"]
+
+for i in name:
+    print(i)
+
+i=0
+while i<len(name):
+    print(name[i])
+    i+=1
