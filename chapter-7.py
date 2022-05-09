@@ -47,3 +47,21 @@ print(user1)
 popped_item=user1.popitem()    #you are popping the last item
 print(popped_item)
 print(user1)
+
+user1.update(user3)
+print(user1)
+
+#fromkeys
+user4=dict.fromkeys(["name","age","pokemon"],"unknown")
+print(user4)
+user4=dict.fromkeys(("name","age","pokemon"),"unknown")
+print(user4)
+user4=dict.fromkeys(range(1,11),"unknown")
+print(user4)
+user4=dict.fromkeys("arnab saha","unknown")
+print(user4) #here every charecter of the string would become a key
+print(user4.get("name"))
+user5=user4.copy()
+print(user5)
+user4.clear()
+print(user4)
