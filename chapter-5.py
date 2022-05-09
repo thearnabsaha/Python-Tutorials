@@ -10,3 +10,14 @@ fruits.append("apple")
 fruits.append("mango")
 fruits.append("grapes")
 print(fruits)
+
+fruits1=["mango","apple"]
+fruits2=["graphes","orange"]
+fruits3=fruits1+fruits2  #general list concatination
+print(fruits3)
+fruits1.extend(fruits2)  #with extend method we change the first list
+print(fruits1)
+
+fruits1=["mango","apple"]
+fruits1.insert(1,"naspati") 
+print(fruits1)
