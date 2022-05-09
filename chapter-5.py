@@ -50,3 +50,9 @@ numbers.clear() #to clear the array
 print(numbers)
 numbersCopy=numbers.copy() #to get a copy of the array
 print(numbersCopy)
+
+name1=["arnab","ambi","suborno","samriddhi","arijit"]
+name2=["arnab","ambi","suborno","samriddhi","arijit"]
+
+print(name1==name2) #True #checks the value
+print(name1 is name2) #False #checks the memory allocation
