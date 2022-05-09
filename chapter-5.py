@@ -120,3 +120,13 @@
 #     return revlist
 # nums=[1,2,3,4,5,6,7,8,9]
 # print(rev(nums))
+
+# names=["arnab","ambitama","suborno","arijit"]
+# def rev(l):
+#     revstring=[]
+#     for i in l:
+#         revstring.append(i[::-1])
+#     return revstring
+
+# print(rev(names))
+
