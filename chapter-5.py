@@ -159,3 +159,13 @@
 # def greatestDifference(l):
 #     return max(l)-min(l)
 # print(greatestDifference(nums))
+
+# def listCount(l):
+#     listnumbers=[]
+#     for i in l:
+#         if type(i)==list:
+#             listnumbers.append(i)
+#     return len(listnumbers)
+
+# nums=[1,2,3,[],4,5,[]]
+# print(listCount(nums))
