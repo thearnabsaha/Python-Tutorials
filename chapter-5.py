@@ -73,3 +73,11 @@ i=0
 while i<len(name):
     print(name[i])
     i+=1
+
+matrix=[[1,2,3],[4,5,6],[7,8,9]] #2d matrix == list inside list
+print(matrix[2])
+print(matrix[1][2])
+for i in matrix:
+    for j in i:
+        print(j)
+print(type(matrix)) #what kind of data type is this
