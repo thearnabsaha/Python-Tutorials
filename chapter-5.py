@@ -21,3 +21,14 @@ print(fruits1)
 fruits1=["mango","apple"]
 fruits1.insert(1,"naspati") 
 print(fruits1)
+
+
+name=["arnab","ambi","suborno","samriddhi","arijit"]
+name.pop() #it will delete last element
+name.pop(1) #it will delete 1 placed element
+
+del name[0] #it will delete 0 placed element
+
+name.remove("samriddhi") #it will delete this item from the list. if it os present more than one times it will only delete one item like this
+
+print(name)
