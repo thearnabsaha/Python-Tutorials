@@ -95,9 +95,28 @@
 #     return negative
 # print(negativeList(list(range(1,11))))
 
-def sqr(l):
-    sqlist=[]
-    for i in l:
-        sqlist.append(i**2)
-    return sqlist
-print(sqr(list(range(5,17,2))))
+# def sqr(l):
+#     sqlist=[]
+#     for i in l:
+#         sqlist.append(i**2)
+#     return sqlist
+# print(sqr(list(range(5,17,2))))
+
+# def rev(l):
+#     l.reverse()
+#     return l
+# nums=[1,2,3,4,5,6,7,8,9]
+# print(rev(nums))
+
+# def rev(l):
+#     return l[::-1]
+# nums=[1,2,3,4,5,6,7,8,9]
+# print(rev(nums))
+
+# def rev(l):
+#     revlist=[]
+#     for i in range(0,len(l)):
+#         revlist.append(l.pop())
+#     return revlist
+# nums=[1,2,3,4,5,6,7,8,9]
+# print(rev(nums))
