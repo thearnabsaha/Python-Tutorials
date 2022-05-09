@@ -32,3 +32,9 @@ del name[0] #it will delete 0 placed element
 name.remove("samriddhi") #it will delete this item from the list. if it os present more than one times it will only delete one item like this
 
 print(name)
+
+name=["arnab","ambi","suborno","samriddhi","arijit"]
+if "arnab" in name:
+    print("is present")
+else:
+    print("not presernt")
