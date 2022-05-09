@@ -61,7 +61,39 @@ print(user4)
 user4=dict.fromkeys("arnab saha","unknown")
 print(user4) #here every charecter of the string would become a key
 print(user4.get("name"))
+print(user4.get("name","not found"))
 user5=user4.copy()
 print(user5)
 user4.clear()
 print(user4)
+
+n=int(input("please input a number: "))
+
+def cubeFun(a):
+    cubes={}
+    for i in range(1,a+1):
+        cubes[i]=i**3
+    return cubes
+print(cubeFun(n))
+
+name=input("type any word: ")
+def letterCounter(a):
+    count={}
+    for i in a:
+        count[i]=a.count(i)
+    return count
+print(letterCounter(name))
+
+name=input("type your name: ")
+age=input("type your age: ")
+favSongs=input("type your favrouite songs(comma separated): ").split(",")
+favMovies=input("type your favrouite movies(comma separated): ").split(",")
+user={
+    "name":name,
+    "age":age,
+    "favMovies":favMovies,
+    "favSongs":favSongs,
+}
+print(user)
+for i,j in user.items():
+    print(f"key={i}:value={j}")
