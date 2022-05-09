@@ -130,3 +130,32 @@
 
 # print(rev(names))
 
+# num=[1,2,3,4,5,6,7,8,9]
+# def odd_even(l):
+#     odd=[]
+#     even=[]
+#     for i in l:
+#         if i%2==0:
+#             even.append(i)
+#         else:
+#             odd.append(i)
+#     return [odd,even]
+
+# print(odd_even(num))
+
+# name1=["arnab","suborno","ambitama"]
+# name2=["arnab","arijit","ambitama"]
+# def commonFilter(l1,l2):
+#     common=[]
+#     for i in l1:
+#         if i in l2:
+#             common.append(i)
+#     return common
+
+# print(commonFilter(name1,name2))
+# nums = [2, 8, 26,60,7]
+# print(max(nums))
+# print(min(nums))
+# def greatestDifference(l):
+#     return max(l)-min(l)
+# print(greatestDifference(nums))
