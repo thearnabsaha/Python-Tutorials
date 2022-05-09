@@ -38,3 +38,15 @@ if "arnab" in name:
     print("is present")
 else:
     print("not presernt")
+print(name.count("arnab")) #how many times is the item available
+name.sort() #to sort the origianl array alphabetically
+print(name)
+
+numbers=[3,6,8,1,5,7,9,12,67]
+numbers.sort()  #to sort the original array numerically
+print(numbers)
+print(sorted(numbers)) #it will not sort the origianl array
+numbers.clear() #to clear the array
+print(numbers)
+numbersCopy=numbers.copy() #to get a copy of the array
+print(numbersCopy)
