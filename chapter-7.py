@@ -36,3 +36,14 @@ print(type(user1.items()))  #dict items
 
 for keys,values in user1.items():
     print(f"key is {keys} and values is {values}")
+    
+user1["pokemon"]="keldeo"
+print(user1)
+
+popped_item=user1.pop("age")   #you are choosing which item to pop
+print(popped_item)
+print(user1)
+
+popped_item=user1.popitem()    #you are popping the last item
+print(popped_item)
+print(user1)
