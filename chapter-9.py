@@ -35,3 +35,6 @@ print(floatList)
 
 diffSeq=[-i if i%2!=0 else i*2 for i in range(1,11)]
 print(diffSeq)
+
+nestedComponent=[[i for i in range(1,4)] for j in range(3)]
+print(nestedComponent)
