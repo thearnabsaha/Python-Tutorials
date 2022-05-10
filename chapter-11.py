@@ -46,3 +46,11 @@
 # func("arnab",1,2,3,pokemon="keldeo")
 # func("arnab",1,2,3,lastName="saha",pokemon="keldeo")
 
+# def func(a,**kwargs):
+#     if kwargs.get("reversed")==True:
+#         print([i[::-1].title() for i in a])
+#     else:
+#         print([i.title() for i in a])
+# names=["arnab","ambitama"]
+# func(names,reversed=True)
+# func(names)
