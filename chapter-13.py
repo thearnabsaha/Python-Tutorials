@@ -39,3 +39,37 @@
 # print(all([i%2==0 for i in l2]))
 # print(all([i%2==0 for i in l1]))
 # print(any([i%2==0 for i in l1]))
+
+# names=["arnab saha","suborno das","arnab","suborno"]
+# print(max(names,key=lambda a:len(a)))
+# print(min(names,key=lambda a:len(a)))
+
+# students=[
+#     {"name":"arnab saha","age":20,"score":97},
+#     {"name":"suborno","age":22,"score":93},
+#     {"name":"ambitama","age":21,"score":92},
+#     {"name":"arijit","age":24,"score":91},
+# ]
+
+# print(max(students,key=lambda a:a.get("score")).get("name"))
+
+# l1=["arnab","ambitama","suborno","arijit"]
+# print(sorted(l1))
+
+# s1={"arnab","ambitama","suborno","arijit"}
+# print(sorted(s1))
+
+# t1=("arnab","ambitama","suborno","arijit")
+# print(sorted(t1))
+
+# students=[
+#     {"name":"arnab saha","age":20,"score":97},
+#     {"name":"suborno","age":22,"score":93},
+#     {"name":"ambitama","age":21,"score":92},
+#     {"name":"arijit","age":24,"score":91},
+# ]
+# lowToHigh=sorted(students,key=lambda a:a.get("score"))
+# highToLow=sorted(students,key=lambda a:a.get("score"),reverse=True)
+
+# print(highToLow)
+# print(lowToHigh)
