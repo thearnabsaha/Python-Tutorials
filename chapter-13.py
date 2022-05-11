@@ -25,3 +25,17 @@
 # l1,l2=list(zip(*zippedList))
 # print(list(l1))
 # print(list(l2))
+
+# l1=[1,2,3]
+# l2=[4,4,3]
+# l3=[1,5,3]
+# l4=[6,2,3]
+
+# print(list(map(lambda a:sum(a)/len(a),zip(l1,l2,l3,l4))))
+
+# l1=[1,2,3,4,5,6]
+# l2=[2,4,6,8,10]
+
+# print(all([i%2==0 for i in l2]))
+# print(all([i%2==0 for i in l1]))
+# print(any([i%2==0 for i in l1]))
