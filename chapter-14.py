@@ -15,16 +15,18 @@
 # squr=toPower(2)
 # print(cube(4))
 # print(squr(4))
-
+# from functools import wraps
 # def decorator_function(any_function):
-#     def wrapper_function():
+#     @wraps(any_function)
+#     def wrapper_function(*args,**kwargs):
 #         print("this is awesome function")
-#         any_function()
+#         return any_function(*args,**kwargs)
 #     return wrapper_function
 
 # @decorator_function
-# def func1():
-#     print("this is the function 1")
-# func1()
+# def func1(a):
+#     print(f"this is the function 1 with argument {a}")
+# func1(7)
 
-# decorator_function(func1())
+# decorator_function(func1(7))
+
