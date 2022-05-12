@@ -35,6 +35,7 @@
 # print(p1.firstName)
 # print(p2.lastName)
 # p1.fullName()
+# print(p1.__dict__)  #it will give you the full description of your class as a dictinary
 
 # class Circle:
 #     pi=3.14
