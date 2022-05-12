@@ -38,12 +38,23 @@
 # print(p1.__dict__)  #it will give you the full description of your class as a dictinary
 
 # class Circle:
-#     pi=3.14
+#     pi=3.14 #class variables
+#     temp=0
 #     def __init__(self,radius):
+#         Circle.temp+=1
 #         self.radius=radius
 #     def circumference(self):
 #         print(self.radius*Circle.pi*2)
+#     @classmethod  #class methods
+#     def countOfObjects(cls):
+#         print(cls.temp)
 
 # c1=Circle(3)
+# c2=Circle(3)
+# c3=Circle(3)
+# c4=Circle(3)
 # c1.circumference()
+# c1.countOfObjects()
+# print(Circle.temp)
+# Circle.countOfObjects() 
 
