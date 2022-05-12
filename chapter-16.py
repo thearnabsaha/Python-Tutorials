@@ -17,7 +17,16 @@
 #         self.price=price
 #     def applyDiscount(self,n):
 #         print(self.price-(self.price*n/100))
-
+#     @classmethod
+#     def fromString(cls,string):
+#         brand,name,price=string.split(",")
+#         return (brand,name,price)
+#     @staticmethod
+#     def hello():
+#         print("hi from static method")
+# Laptop.hello()
+# l3=Laptop.fromString("apple,mac,200000")
+# print(l3)
 # l1=Laptop("acer","nitro",40000)
 # l2=Laptop("apple","macbook",130000)
 # print(l1.brand)
