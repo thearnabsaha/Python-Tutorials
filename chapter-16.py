@@ -15,11 +15,14 @@
 #         self.brand=brand
 #         self.name=name
 #         self.price=price
+#     def applyDiscount(self,n):
+#         print(self.price-(self.price*n/100))
 
 # l1=Laptop("acer","nitro",40000)
 # l2=Laptop("apple","macbook",130000)
 # print(l1.brand)
 # print(l2.name)
+# l1.applyDiscount(40)
 
 # class Person:
 #     def __init__(self,firstNaeme,LastName):
@@ -32,4 +35,14 @@
 # print(p1.firstName)
 # print(p2.lastName)
 # p1.fullName()
+
+# class Circle:
+#     pi=3.14
+#     def __init__(self,radius):
+#         self.radius=radius
+#     def circumference(self):
+#         print(self.radius*Circle.pi*2)
+
+# c1=Circle(3)
+# c1.circumference()
 
