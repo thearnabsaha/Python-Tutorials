@@ -48,19 +48,21 @@
 # print(func(2,3))
 
 # from functools import wraps
-# def onlyIntAllowed(function):
-#     wraps(function)
-#     def wrapper_function(*args,**kwargs):
-#         if all([type(i)==int for i in args]):
-#             return function(*args,**kwargs)
-#         print("invalid argument")
-#     return wrapper_function
+# def onlyDataAllowed(dataType):
+#     def onlyIntAllowed(function):
+#         wraps(function)
+#         def wrapper_function(*args,**kwargs):
+#             if all([type(i)==dataType for i in args]):
+#                 return function(*args,**kwargs)
+#             print("invalid argument")
+#         return wrapper_function
+#     return onlyIntAllowed
 
-# @onlyIntAllowed
+# @onlyDataAllowed(str)
 # def addAll(*args):
-#     total=0
+#     total=""
 #     for i in args:
 #         total+=i
 #     return total
-# print(addAll(2,3,4,[1,2]))
+# print(addAll("a","c","b"))
 
