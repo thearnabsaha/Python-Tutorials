@@ -21,14 +21,15 @@
 # print(l1.brand)
 # print(l2.name)
 
-class Person:
-    def __init__(self,firstNaeme,LastName):
-        self.firstName=firstNaeme
-        self.lastName=LastName
-    def fullName(self):
-        print(f"your full name is {self.firstName} {self.lastName}")
-p1=Person("arnab","saha")
-p2=Person("ambitama","saha")
-print(p1.firstName)
-print(p2.lastName)
-p1.fullName()
+# class Person:
+#     def __init__(self,firstNaeme,LastName):
+#         self.firstName=firstNaeme
+#         self.lastName=LastName
+#     def fullName(self):
+#         print(f"your full name is {self.firstName} {self.lastName}")
+# p1=Person("arnab","saha")
+# p2=Person("ambitama","saha")
+# print(p1.firstName)
+# print(p2.lastName)
+# p1.fullName()
+
