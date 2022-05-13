@@ -95,3 +95,20 @@
 # print(isinstance(g1,Laptop)) #true
 # print(isinstance(g1,GamingLaptop2)) #also true
 # print(issubclass(GamingLaptop2,Laptop,GamingLaptop2)) #true
+
+# class A():
+#     def __init__(self,i):
+#         self.i=__name__
+#     def sayHiA(self):
+#         print("hi from A")
+# class B():
+#     def __init__(self,i):
+#         self.i=__name__
+#     def sayHiB(self):
+#         print("hi from B")
+# class C(A,B):
+#     pass
+
+# c1=C("arnab")
+# c1.sayHiA()
+# c1.sayHiB()
