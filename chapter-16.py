@@ -67,3 +67,19 @@
 # print(Circle.temp)
 # Circle.countOfObjects() 
 
+class Laptop:
+    def __init__(self,brand,model,price):
+        self.brand=brand
+        self.model=model
+        if price>0:
+            self.price=price
+        else:
+            self.price=0
+    def yourLaptop(self):
+        print(f"your brand is {self.brand}, your model name is {self.model}, your price is {self.price}")
+
+l1=Laptop("apple","mac",200000)
+print(l1.brand)
+print(l1.model)
+print(l1.price)
+l1.yourLaptop()
