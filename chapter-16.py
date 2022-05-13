@@ -67,19 +67,31 @@
 # print(Circle.temp)
 # Circle.countOfObjects() 
 
-class Laptop:
-    def __init__(self,brand,model,price):
-        self.brand=brand
-        self.model=model
-        if price>0:
-            self.price=price
-        else:
-            self.price=0
-    def yourLaptop(self):
-        print(f"your brand is {self.brand}, your model name is {self.model}, your price is {self.price}")
+# class Laptop:
+#     def __init__(self,brand,model,price):
+#         self.brand=brand
+#         self.model=model
+#         self.price=max(price,0)
+#     def yourLaptop(self):
+#         print(f"your brand is {self.brand}, your model name is {self.model}, your price is {self.price}")
+#     @property
+#     def yourLaptop2(self):
+#         return f"your brand is {self.brand}, your model name is {self.model}, your price is {self.price}"
 
-l1=Laptop("apple","mac",200000)
-print(l1.brand)
-print(l1.model)
-print(l1.price)
-l1.yourLaptop()
+# class GamingLaptop(Laptop):
+#     def __init__(self,brand,model,price,games):
+#         Laptop.__init__(self,brand,model,price) #uncommon way
+#         self.games=games
+        
+# class GamingLaptop2(Laptop):
+#     def __init__(self,brand,model,price,games): #common way
+#         super().__init__(brand,model,price)
+#         self.games=games
+#     def yourLaptop(self):
+#         print(f"your brand is {self.brand}, your model name is {self.model}, your price is {self.price} and you have games naemd {self.games}")
+
+# g1=GamingLaptop2("acer","nitro",50000,"minecraft")
+# g1.yourLaptop()
+# print(isinstance(g1,Laptop)) #true
+# print(isinstance(g1,GamingLaptop2)) #also true
+# print(issubclass(GamingLaptop2,Laptop,GamingLaptop2)) #true
