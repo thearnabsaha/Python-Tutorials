@@ -61,22 +61,6 @@ sumsang=Mobile("samsung galaxy s8")
 mStrore=MobileStore()
 mStrore.addPhone(sumsang)
 print(mStrore.store)
-while True:
-    try:
-        age=int(input("enter your age: "))
-        # break
-    except ValueError:
-        print("invalid input... please type a integer value!!")
-    except:
-        print("unexcepted error...")
-    else:
-        if age>18:
-            print("you can play")
-        else:
-            print("no you can't play")
-    finally:
-        print("hello world")
-
 class NameTooShortError(ValueError):
     pass
 def validate(name):
