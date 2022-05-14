@@ -14,7 +14,15 @@
 # print(f.closed)
 # f.close() 
 
-# with open("file.txt") as f:
-#     data=f.read()
-#     print(data)
+with open("file.txt","w") as f:
+    f.write("i am a pokemon")
+    
+with open("file.txt","a") as f:
+    f.write("i am a pokemon yeash")
+
+with open("file.txt","r+") as f:
+    f.seek(len(f.read()))
+    f.write("i am a pokemon yeash")
+    f.seek(0)
+    print(f.read())
 
