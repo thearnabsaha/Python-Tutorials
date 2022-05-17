@@ -1,0 +1,57 @@
+stack=[]
+stack.append(1)
+stack.append(2)
+stack.append(3)
+stack.append(4)
+stack.append(5)
+stack.append(6)
+stack.append(7)
+stack.append(8)
+print(stack)
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+print(stack)
+##checking list is empty or not
+print(len(stack)==0)
+print(not stack)
+
+import collections
+stack=collections.deque()
+print(stack)
+stack.append(1)
+stack.append(2)
+stack.append(3)
+print(stack)
+stack.pop()
+stack.pop()
+stack.pop()
+print(stack)
+# ##checking list is empty or not
+print(not stack)
+
+
+import queue
+stack=queue.LifoQueue()
+print(stack)
+stack.put(10)
+stack.put(20)
+stack.put(30)
+print(stack)
+stack.get()
+stack.get()
+stack.get()
+print(stack)
+
+stack=queue.LifoQueue(3)
+print(stack)
+stack.put(10)
+stack.put(20)
+stack.put(30)
+stack.put(40,timeout=1)
+
